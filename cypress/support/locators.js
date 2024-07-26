@@ -1,15 +1,10 @@
 const locators = {
-    HOME_PAGE: {
-      promoSection: '.row.promo_section',
-      promotionItem: '.col-md-3.col-xs-6.promo_block',
-      promotionDescription: '.promo_text',
-      promotionImage: '.promo_icon',
-      logo: '.logo',
-      mainMenu: '.subnav',  
-      footer: 'footer',
-      eachCategory: '.nav-pills.categorymenu > li > a',
-      pathImage: '.parent_cat_image',
-      catImage: '.root_cat_image', 
+    search_page: {
+      searchBox: '#twotabsearchtextbox',
+      chooseBrandAsusfrFilters: '/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[6]/ul/span/span[1]/li/span/a/div/label/i',
+      
+
+      
     },
 }
   export default locators;

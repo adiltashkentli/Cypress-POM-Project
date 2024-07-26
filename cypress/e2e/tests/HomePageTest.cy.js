@@ -12,8 +12,10 @@ describe('Home Page Tests', () => {
     });
     it.only("Searching a product", () => {
         cy.get(locators.search_page.searchBox).type('asus rog phone 8 pro').type('{enter}')
-        cy.get(locators.search_page.chooseBrandAsusfrFilters).click()
-
+        cy.contains('Rog Phone 8 PRO AI2401 Edition Dual Sim 24GB RAM 1TB 5G Black - International Version').click()
+        cy.get(locators.search_page.addToCardButton).should('be.visible').click()
+        cy.get(locators.search_page.goToBasketButton).should('be.visible').click()
+        cy.get(locators.search_page.shoppingCartAssertText).should('be.visible', 'Shopping Cart')
     })
 
 });

@@ -1,8 +1,10 @@
 const locators = {
     search_page: {
       searchBox: '#twotabsearchtextbox',
-      chooseBrandAsusfrFilters: '/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[6]/ul/span/span[1]/li/span/a/div/label/i',
-      
+      chooseBrandAsusfrFilters: '.a-icon-checkbox',
+      addToCardButton: '#add-to-cart-button',
+      goToBasketButton: '#sw-gtc > span:nth-child(1) > a:nth-child(1)',
+      shoppingCartAssertText: '.sc-cart-header > div:nth-child(1) > h1:nth-child(1)',
 
       
     },
